@@ -36,6 +36,7 @@ RISC-V-Traffic-Light-RIPES/
 ├── screenshots/            # Images of the simulation
 └── README.md
 ## 🚦 Traffic Light Logic
+```
 
 - Follows an 8-state cycle:
   - Only one green at a time
@@ -49,7 +50,7 @@ RISC-V-Traffic-Light-RIPES/
 sw a1, 0(t0)   # Red ON
 sw a4, 4(t0)   # Yellow OFF
 sw a6, 8(t0)   # Green OFF
-
+```
 ## 🌀 Simulation Loop
 
 Each state lasts 4 loops (pseudo delay).  
