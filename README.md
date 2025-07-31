@@ -75,7 +75,7 @@ You can record your screen using:
 
 ```markdown
 ![Demo](demo.gif)
-
+```
 ## 📷 Screenshots
 
 _Add some PNG/JPG snapshots of your simulation here_
